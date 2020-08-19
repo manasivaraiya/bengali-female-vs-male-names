@@ -10,11 +10,11 @@ In Bengli language, name of a person is dependent largely on their gender. Norma
 
 ## Download dataset
 
-You can download the dataset from this link: 
-[Download Bengli Female VS Male name dataset](https://raw.githubusercontent.com/faruk-ahmad/bengli-female-vs-male-names/master/dataset/bengli-female-vs-male-names.csv)
+You can download the dataset and other resources for latest release from this link: 
+[Download Bengli Female VS Male name dataset](https://github.com/faruk-ahmad/bengli-female-vs-male-names/archive/v1.0.0.zip)
 
 
-Or download using wget-
+Or download the latest updates using wget-
 
 ```bash
 wget --no-check-certificate \ 
