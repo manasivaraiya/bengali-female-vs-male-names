@@ -2,9 +2,31 @@
 
 An NLP dataset that contains 2030 data samples of bengli names and corresponding gender both for female and male. This is a very small and simple toy dataset that can be used by NLP starters to practice sequence classification problem and other NLP problems like gender recognition from names.
 
+
 # Background
 
 In Bengli language, name of a person is dependent largely on their gender. Normally, name of a female ends with certain type of suffix "A", "I", "EE" ["আ", "ই", "ঈ"]. And the names of male are significantly different from female in terms of phoneme patterna and ending suffix. So, In my observation their is a significant possibility that these difference in patterns can be used for gender classification based on names.
+
+
+## Download dataset
+
+You can download the dataset from this link: 
+[Download Bengli Female VS Male name dataset](https://raw.githubusercontent.com/faruk-ahmad/bengli-female-vs-male-names/master/dataset/bengli-female-vs-male-names.csv)
+
+
+Or download using wget-
+
+```bash
+wget --no-check-certificate \ 
+https://raw.githubusercontent.com/faruk-ahmad/bengli-female-vs-male-names/master/dataset/bengli-female-vs-male-names.csv \
+-O bengli-female-vs-male-names.csv
+
+```
+
+
+Find the full documentaion here:
+
+[Documentation and dataset specifications](https://github.com/faruk-ahmad/bengli-female-vs-male-names)
 
 ## Dataset Format
 
@@ -33,7 +55,7 @@ The number of samples per class is as bellow-
 
 ## Possible Use Cases
 
-1. Sequence Classificaion using RNN, LSTM etc
+1. Sequence Classificaion using RNN, LSTM etc [check the sample notebook in notebook directory]
 2. Sequence modeling using other type of machine learning algorithms
 3. Gender recognition based on names
 
@@ -44,3 +66,7 @@ If you feel to contribute to this dataset, you are welcome to contribute in the 
 1. Can add more data samples in the dataset. If you want to add more samples in the dataset, then add your data to the ```female.txt``` and ```male.txt``` file in db directory using newlines and send a pull request. I will merge your update to the csv file.
 
 2. You can also create notebooks/scripts for different use cases using this dataset and put your notebook in the notebook directory and send a pull request.
+
+## Disclaimer
+
+The names were collected from internet using different source like wikipedia, baby name suggestion websites etc. If someones name is in the dataset, that is totally unintentional.
