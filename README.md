@@ -41,6 +41,6 @@ The number of samples per class is as bellow-
 ## Contribute
 
 If you feel to contribute to this dataset, you are welcome to contribute in the following ways-
-1. Can add more data samples in the dataset. If you want to add more samples in the dataset, then add your data to the ```female.txt``` and ```male.txt``` file using newlines and send a pull request. I will merge your update to the csv file.
+1. Can add more data samples in the dataset. If you want to add more samples in the dataset, then add your data to the ```female.txt``` and ```male.txt``` file in db directory using newlines and send a pull request. I will merge your update to the csv file.
 
-2. You can also created notebooks for different use cases using this dataset and put your notebook in the notebook directory and send a pull request.
+2. You can also create notebooks/scripts for different use cases using this dataset and put your notebook in the notebook directory and send a pull request.
