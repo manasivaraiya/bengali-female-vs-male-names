@@ -18,7 +18,7 @@ Or download the latest updates using wget-
 
 ```bash
 wget --no-check-certificate \ 
-https://raw.githubusercontent.com/faruk-ahmad/Bengali-female-vs-male-names/master/dataset/bengali-female-vs-male-names.csv \
+https://raw.githubusercontent.com/faruk-ahmad/bengali-female-vs-male-names/master/dataset/bengali-female-vs-male-names.csv \
 -O bengali-female-vs-male-names.csv
 
 ```
