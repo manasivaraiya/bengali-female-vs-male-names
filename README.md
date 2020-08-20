@@ -1,32 +1,32 @@
-# Bengli Female VS Male Names Dataset
+# Bengali Female VS Male Names Dataset
 
-An NLP dataset that contains 2030 data samples of bengli names and corresponding gender both for female and male. This is a very small and simple toy dataset that can be used by NLP starters to practice sequence classification problem and other NLP problems like gender recognition from names.
+An NLP dataset that contains 2030 data samples of Bengali names and corresponding gender both for female and male. This is a very small and simple toy dataset that can be used by NLP starters to practice sequence classification problem and other NLP problems like gender recognition from names.
 
 
 # Background
 
-In Bengli language, name of a person is dependent largely on their gender. Normally, name of a female ends with certain type of suffix "A", "I", "EE" ["আ", "ই", "ঈ"]. And the names of male are significantly different from female in terms of phoneme patterna and ending suffix. So, In my observation their is a significant possibility that these difference in patterns can be used for gender classification based on names.
+In Bengali language, name of a person is dependent largely on their gender. Normally, name of a female ends with certain type of suffix "A", "I", "EE" ["আ", "ই", "ঈ"]. And the names of male are significantly different from female in terms of phoneme patterna and ending suffix. So, In my observation their is a significant possibility that these difference in patterns can be used for gender classification based on names.
 
 
 ## Download dataset
 
 You can download the dataset and other resources for latest release from this link: 
-[Download Bengli Female VS Male name dataset](https://github.com/faruk-ahmad/bengli-female-vs-male-names/archive/v1.0.0.zip)
+[Download Bengali Female VS Male name dataset](https://github.com/faruk-ahmad/bengali-female-vs-male-names/archive/v1.0.0.zip)
 
 
 Or download the latest updates using wget-
 
 ```bash
 wget --no-check-certificate \ 
-https://raw.githubusercontent.com/faruk-ahmad/bengli-female-vs-male-names/master/dataset/bengli-female-vs-male-names.csv \
--O bengli-female-vs-male-names.csv
+https://raw.githubusercontent.com/faruk-ahmad/Bengali-female-vs-male-names/master/dataset/bengali-female-vs-male-names.csv \
+-O bengali-female-vs-male-names.csv
 
 ```
 
 
 Find the full documentaion here:
 
-[Documentation and dataset specifications](https://github.com/faruk-ahmad/bengli-female-vs-male-names)
+[Documentation and dataset specifications](https://github.com/faruk-ahmad/bengali-female-vs-male-names)
 
 ## Dataset Format
 

@@ -37,5 +37,5 @@ ds = 'Name, Gender\n'
 for d in data:
     ds += (d + '\n')
 
-with open('bengli-boys-vs-girls-names-2k.csv', 'w') as fp:
+with open('bengali-boys-vs-girls-names-2k.csv', 'w') as fp:
     fp.write(ds)
